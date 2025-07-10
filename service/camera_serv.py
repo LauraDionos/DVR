@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-from repositories.camaras_repository import construir_urls_rtsp
+from repositories.camera_repo import construir_urls_rtsp
 
 class CamarasService:
     def __init__(self, usuario: str, contrasena: str, ip_dvr: str, canales: list[str]):
