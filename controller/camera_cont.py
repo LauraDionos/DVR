@@ -15,5 +15,4 @@ def ver_camaras(config: CameraConfig):
     grid = servicio.obtener_grid()
     servicio.liberar()
 
-    # Aquí deberías retornar imagen como stream o guardar archivo temporalmente
     return {"mensaje": "Cámaras procesadas correctamente. Backend funcionando."}
